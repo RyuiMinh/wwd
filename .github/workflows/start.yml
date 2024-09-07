@@ -19,7 +19,7 @@ jobs:
           tar -zxvf ngrok.tgz
           ./ngrok config add-authtoken 2caMIyH98jojFijfUDA9HHKZDZ0_2naziucGo1SjGJ4xWL8QM
           ./ngrok http 8006 &>/dev/null &
-      - name: Cài win và khởi chạy
+      - name: Cài win và khởi chạy(lấy website novnc tại đây)
         run: |
           sudo chmod 666 /dev/kvm
           sudo mkdir /isos/
